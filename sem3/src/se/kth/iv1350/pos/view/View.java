@@ -42,11 +42,12 @@ public class View {
 			System.out.println (displayScanningMessage);
 		}
 		
-		double totalPriceBeforeDiscount = contr.startPayment(cash);
-		System.out.println ("Total Price:" + totalPriceBeforeDiscount);
-		
-		double totalPrice = contr.checksForDiscount(customerID);
+		double totalPrice = contr.startPayment(customerID);
 		System.out.println ("Total Price:" + totalPrice);
+		
+		double change = contr.payment(cash);
+		System.out.println ("Money paid:" + cash);
+		System.out.println ("Money back:" + change);
 		
 		
 	 }

@@ -22,12 +22,16 @@ public class ItemRegistry {
 		switch (itemID) {
 		case 1:
 			item = item1;
+			break;
 		case 2:
 			item = item2;
+			break;
 		case 3:
 			item = item3;
+			break;
 		case 4:
 			item = item4;
+			break;
 		}
 		return item;
 	}

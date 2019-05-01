@@ -26,6 +26,18 @@ public class ItemDTO {
 		return itemPrice;
 	}
 	
+	public int getItemIdentifier() {
+		return itemIdentifier;	
+	}
+	
+	public float getVAT() {
+		return itemVAT;	
+	}
+	
+	public int getItemQuantity() {
+		return itemQuantity;	
+	}
+	
 	public void setItemQuantity(int quantity) {
 		this.itemQuantity = quantity;
 	}

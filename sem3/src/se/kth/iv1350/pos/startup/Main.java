@@ -16,5 +16,6 @@ public class Main {
 		new View(contr).executions();
 		Printer printer = new Printer(); 
 	} 
+
 	
 }
